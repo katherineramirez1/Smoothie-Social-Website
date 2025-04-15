@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smoothie Social</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0ffff;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff6f61;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background-color: #ffa07a;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .highlight {
+      background-color: #e1f3ff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+    }
+
+    footer {
+      background-color: #ff6f61;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .smoothie-item {
+      background-color: #ffe5d9;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .smoothie-item h3 {
+      margin: 0.5rem 0;
+    }
+
+    .smoothie-item p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Smoothie Social</h1>
+    <p>Your go-to spot for fresh & fun smoothies 🍓🍌🥭</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="ingredients.html">Menu</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="register.html">Register</a>
+  </nav>
+
+  <main>
+    <section class="highlight">
+      <h2>🌞 Spring Special: Tropical Twist!</h2>
+      <p>Enjoy a refreshing mix of mango, pineapple, and coconut water — only for a limited time!</p>
+    </section>
+
+    <section>
+      <h2>Our Favorites</h2>
+      <div class="menu">
+        <div class="smoothie-item">
+          <h3>Berry Bliss</h3>
+          <p>Strawberry, blueberry, banana, almond milk</p>
+        </div>
+        <div class="smoothie-item">
+          <h3>Green Glow</h3>
+          <p>Kale, spinach, mango, pineapple, coconut water</p>
+        </div>
+        <div class="smoothie-item">
+          <h3>Peanut Power</h3>
+          <p>Banana, peanut butter, cocoa, oat milk</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Smoothie Social. Stay fruity!
+  </footer>
+
+</body>
+</html>
